@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: #5F6472;
+}
+
+.logo {
+    position: absolute;
+    width: 151.43px;
+    height: 30px;
+    left: 40px;
+    top: 27px;
+}
+
+.list {
+    margin-top: 122px;
+    margin-left: 40px;
+
+}
+
+.shimpent {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #979797;
+}
+
+ul li{
+    margin-bottom: 16px;
+}
+
+ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #979797;
+}
+
+.active {
+    background: linear-gradient(90deg, rgba(45, 48, 56, 0) 22.92%, #2D3038 100%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 269px;
+    height: 25px;
+    left: 41px;
+    top: 173px;
+   
+}
+
+
+
+.box{
+    position: absolute;
+    width: 900px;
+    height: 550px;
+    left: 360px;
+    top: 122px;
+    background: linear-gradient(124.01deg, #2D3038 0%, rgba(45, 48, 56, 0) 100%);
+    border-radius: 30px;
+    
+}
+
+
+.amazon {
+    position: absolute;
+    width: 236px;
+    height: 75px;
+    left: 50px;
+    top: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.apple  {
+    position: absolute;
+    width: 236px;
+    height: 75px;
+    left: 50px;
+    top: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.americanexpress {
+    position: absolute;
+    width: 700px;
+    height: 75px;
+    left: 50px;
+    top: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+} 
+
+.walmart{
+    position: absolute;
+    width: 236px;
+    height: 75px;
+    left: 50px;
+    top: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #979797;
+    margin-left: 60px;
+    margin-top: 95px;
+    position: absolute;   
+}
+
+.cargo {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #979797;
+    margin-left: 60px;
+    margin-top: 130px;
+}
+
+.numberofcargos {
+    margin-left: 60px;
+    margin-top: 160px;
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+.cargobays {
+    position: absolute;
+    width: 468px;
+    height: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    color: #979797;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.loading {
+    height: 50px;
+    width: 50px;
+    margin-left: 700px;
+    margin-top: 300px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    border-top: 6px solid black;
+    animation: loader 1s infinite;
+    display: none;
+
+}
+
+.cargonumber {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    color: #979797;
+    margin-left: 60px;
+    margin-top: 250px;
+}
